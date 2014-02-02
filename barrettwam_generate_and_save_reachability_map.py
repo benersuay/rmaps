@@ -33,6 +33,9 @@ from TSR import *
 env = Environment()
 env.SetViewer('qtcoin')
 
+print "Press Enter to generate the reachability map..."
+sys.stdin.readline()
+
 robot = env.ReadRobotURI('robots/barrettwam.robot.xml')
 env.Add(robot)
 
